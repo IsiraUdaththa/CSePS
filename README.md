@@ -18,7 +18,7 @@ sequenceDiagram
     SERVER->>BIDDERS: publish pub key
 
     BIDDERS->>SERVER: submit encrypted bid
-    note right of SERVER: recorded in hash chain,\nblind
+    note right of SERVER: recorded in hash chain
 
     %% Deadline point
     note over SERVER: [DEADLINE]
